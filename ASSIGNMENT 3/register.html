@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Event + Registration Page</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    
+        <nav>
+        <a href="index.html">Home</a>|
+        <a href="register.html">Register</a>|
+        <a href="about.html">About</a>|
+        <a href="contact.html">Contact Us</a>
+        </nav>
+     <h1> Registration</h1>
+<h2 id = "register">Register for Events</h2>
+      <form action="submit_registration.php" method="post">
+  <p> <label for="name">Name:</label>
+   <input type="text" id="name" name="name" placeholder="Your Name" required></p>
+   <p> <label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="example@gmail.com" required></p>
+<p> <label for="pass">Password:</label>
+ <input type="password" id="pass" name="pass" placeholder="Enter your password" required></p>
+<p> <label for="dob">Date of Birth:</label>
+ <input type="date" id="dob" name="dob" required></p>
+<p> <label for="phone"> Phone No:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required></p>
+<p> Gender: 
+    <input type="radio" id="male" name="gender"><label for="m">Male</label>
+    <input type="radio" id="female" name="gender"><label for="f">Female</label></p>
+<p> <label for="event">Select Event:</label>
+    <select id="event" name="event">
+        <option value="hackathon">Hackathon</option>
+        <option value="html_workshop">HTML Workshop</option>
+        <option value="css_workshop">CSS Workshop</option>
+        <option value="js_seminar">JavaScript Seminar</option>
+    </select></p>
+<p> <label for="msg">Why do you want to attend this event?</label><br>
+    <textarea id="msg" name="msg" rows="4" cols="50"></textarea> 
+</p>
+<button type="submit">Register</button>
+
+</form>
+ </body>
+</html>          

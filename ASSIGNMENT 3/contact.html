@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Event + Registration Page-Contact</title> 
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+        <nav>
+        <a href="index.html">Home</a>|
+        <a href="register.html">Register</a>|
+        <a href="about.html">About</a>|
+        <a href="contact.html">Contact Us</a>
+        </nav>
+     <h1> Contact Us</h1>
+     <p>If you have any questions or feedback, please feel free to reach out to us:</p>
+     <ul>
+         <li><strong>Email:</strong> info@codingclub.com</li>
+         <li><strong>Phone:</strong> +91 721 7011-304</li>
+         <li><strong>Address:</strong>Invertis University, Bareilly</li>
+
+     </ul>
+     <h2>Contact Form</h2>
+     <form action="submit_contact.php" method="post">
+         <p><label for="name">Name:</label>
+         <input type="text" id="name" name="name" placeholder="Your Name" required></p>
+         <p><label for="email">Email:</label>
+         <input type="email" id="email" name="email" placeholder="example@gmail.com" required></p>
+         <p><label for="message">Message:</label>
+         <textarea id="message" name="message" placeholder="Your Message" required></textarea></p>
+         <button type="submit">Send Message</button>
+     </form>
+ </body>
+</html>
